@@ -13,13 +13,11 @@
     $fortune = "中吉";
   }else if ($randNumber <= 18) {
     $fortune = "小吉";
-  }else if
-  ($randNumber <= 27) {
+  }else if ($randNumber <= 27) {
     $fortune = "末吉";
-  }else if($randNumber <= 32) {
+  }else if ($randNumber <= 32) {
     $fortune = "凶";
-  }
-  else {
+  }else {
     $fortune = "大凶";
   }
   //⑤今日の日付と、名前、番号、おみくじ結果を表示しましょう
